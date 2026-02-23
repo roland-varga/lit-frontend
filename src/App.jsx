@@ -1,12 +1,14 @@
 import { useState } from 'react'
 import './App.css'
+import SearchBar from './components/SearchBar'
 
 function App() {
-    const [count, setCount] = useState(0)
-
     return (
-        <div>
-            Lit 🔥
+        <div className='main-view'>
+            <h1>
+                Lit 🔥
+            </h1>
+            <SearchBar/>
         </div>
     )
 }
