@@ -1,4 +1,3 @@
-
 export async function fetchAnimeFromJikan(animeName) {
     try {
         const response = await fetch(
@@ -13,6 +12,7 @@ export async function fetchAnimeFromJikan(animeName) {
         return [];
     }
 }
+
 
 export async function fetchGamesFromRAWG(gameName) {
     try {
